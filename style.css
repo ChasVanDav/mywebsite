@@ -139,7 +139,7 @@ h2 {
   margin-top: 25px;
   border: 1px solid black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   background-color: white;
 }
