@@ -1,10 +1,15 @@
+/* * {
+  border: 1px solid red;
+} */
+
 body {
-  margin: 0 auto;
-  max-width: 100%;
+  margin-left: 15px;
   padding: 0 20px;
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
   background-color: #ffe4e1;
+  margin: none;
+  padding: none;
 }
 
 nav {
@@ -18,6 +23,10 @@ nav {
   background-color: white;
   border: 1px solid black;
   z-index: 1000;
+}
+
+nav h2 {
+  font-size: large;
 }
 
 /* Menu design and behavior */
@@ -102,7 +111,6 @@ h2 {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: space-evenly;
   background-color: white;
 }
@@ -113,6 +121,7 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .photowrapper img {
@@ -136,7 +145,12 @@ h2 {
 }
 
 .tech-stack-container {
-  padding: 10px;
+  margin-top: 25px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   background-color: white;
 }
 
@@ -173,7 +187,7 @@ h2 {
 #githubactivity {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: stretcg;
   align-items: center;
   border: 1px solid black;
   margin-top: 25px;
@@ -237,6 +251,7 @@ form {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .social-icons {
@@ -291,8 +306,10 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
-  width: 100%;
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  padding: none;
 }
 
 #project1,
@@ -329,6 +346,7 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   margin: none;
+  font-size: 30px;
 }
 
 #project1 h2,
@@ -343,4 +361,8 @@ img {
 h3 {
   max-width: 300px;
   margin-bottom: 25px;
+}
+
+h2 {
+  overflow-wrap: break-word;
 }
