@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- IMPORT FONTS & ICONS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <button id="hamburger-menu" aria-label="Toggle menu" class="hamburger">
+          &#9776;
+        </button>
+      </div>
+      <h2>chasityvanessadavis.com</h2>
+    </nav>
+    <div id="menu" class="menu">
+      <ul>
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#techstack">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="container1">
+      <div id="story">
+        <a href="#welcome" id="welcome"><h1>Welcome!</h1></a>
+        <h2>console.log(`${Vanessa's Introduction}`)</h2>
+
+        <p>
+          Hello! I am Vanessa, a junior software engineer with an eclectic
+          background. Originally from Brooklyn, New York, I have always been
+          exposed to a multicultural environment that helped shape my curiosity
+          about the world around me.
+        </p>
+        <p>
+          While working overseas in South Korea, I was inspired by the software
+          engineers and data analysts that I interacted with daily. Currently, I
+          am working with a non profit organization that trains fledgling
+          software engineers. I have experience developing full stack
+          applications in both Javascript and Python languages. I am passionate
+          about accessibility in the Tech space. I am looking forward to the
+          impact I can make in my next role.
+        </p>
+        <p>
+          <a href="Vanessa's Resume 2025.pdf"
+            >Click Here to Download My Resume</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="photocontainer">
+      <div class="photowrapper">
+        <!-- <img src="Amsterdam Pic.jpeg" alt="Woman smiling in headshot photo" /> -->
+        <img src="IndiaTravel.jpg" alt="Woman smiling in headshot photo" />
+        <img src="GreatWall.jpg" alt="Woman smiling in headshot photo" />
+        <img src="KoreanPalace.jpg" alt="Woman smiling in headshot photo" />
+        <img src="OlympicPark.jpg" alt="Woman smiling in headshot photo" />
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="tech-stack-container">
+        <a href="#techstack" id="techstack"><h1>Tech Stack</h1></a>
+        <h2>const myTechStack = document.getElementById(mts).innerHTML;</h2>
+        <div class="tech-icons">
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-figma-plain colored"></i>
+          <i class="devicon-git-plain colored"></i>
+          <i class="devicon-github-original colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-react-original colored"></i>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-flask-original colored"></i>
+          <i class="devicon-postgresql-plain colored"></i>
+          <i class="devicon-tableau-plain colored"></i>
+        </div>
+      </div>
+    </div>
+    <div id="githubactivity">
+      <h1>Github Activity</h1>
+      <a href="https:/github.com/ChasVanDav" target="_blank">
+        <img src="https://ghchart.rshah.org/ChasVanDav" alt="Github chart" />
+      </a>
+    </div>
+    <div class="container4">
+      <a href="#projects" id="projects"><h1>Projects</h1></a>
+      <h2>import { featuredProjects } from './projects';</h2>
+
+      <div id="project1">
+        <h1>Korean Recipe App:</h1>
+        <h2>
+          Users select a Korean recipe & watch the most-viewed YouTube video.
+        </h2>
+
+        <img src="RecipeSite.png" alt="screenshot of recipe webpage" />
+      </div>
+      <div id="project2">
+        <h1>Budget Blog App:</h1>
+        <h2>
+          Users track their spending & access exchange rates and weather info!
+        </h2>
+        <img src="BudgetSite.png" alt="screenshot of budget blog webpage" />
+      </div>
+      <div id="project3">
+        <h1>Portfolio Website:</h1>
+        <h2>
+          A website highlighting my skills and story as a software engineer.
+        </h2>
+        <img src="PortfolioSite.png" alt="screenshot of a portfolio website" />
+      </div>
+    </div>
+
+    <div class="container3">
+      <div>
+        <a href="#contact" id="contact"><h1>🤝🏽 Connect with me!</h1></a>
+
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div class="social-icons">
+          <a
+            href="https://github.com/ChasVanDav"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/chasityvdavis"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- <div>
+        <h1>Check Out My Resume</h1>
+      </div> -->
+    </div>
+
+    <p>© Portfolio Website of Chasity Vanessa Davis</p>
+
+    <!-- External JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
