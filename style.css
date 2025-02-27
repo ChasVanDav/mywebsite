@@ -193,8 +193,8 @@ h2 {
 .container4 #project1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   border-top: 1px solid black;
   margin-bottom: 20px;
 }
@@ -202,8 +202,8 @@ h2 {
 .container4 #project2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   border-top: 1px solid black;
   margin-bottom: 20px;
 }
@@ -211,8 +211,8 @@ h2 {
 .container4 #project3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   border-top: 1px solid black;
   margin-bottom: 20px;
 }
@@ -227,7 +227,6 @@ h2 {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  /* align-items: left; */
   justify-content: space-around;
   background-color: white;
   margin-bottom: 40px;
@@ -242,12 +241,10 @@ form {
 
 .social-icons {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding: 25px;
-  /* margin-top: 10px; */
 }
 
 .social-icons a {
@@ -285,12 +282,65 @@ a {
   text-decoration: none;
 }
 
-#project1 {
-  margin-top: 15px;
-}
-
 img {
   border: 1px solid black;
-  /* padding: 10px; */
   max-width: 90%;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+#project1,
+#project2,
+#project3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 10px;
+  border-top: 1px solid black;
+}
+
+#project1,
+#project2,
+#project3 {
+  flex: 1;
+  min-width: 250px;
+  max-width: 30%;
+}
+
+#project1 img,
+#project2 img,
+#project3 img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#project1 h1,
+#project2 h1,
+#project3 h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: none;
+}
+
+#project1 h2,
+#project2 h2,
+#project3 h2 {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  max-width: 300px;
+  margin-bottom: 25px;
 }
