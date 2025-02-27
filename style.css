@@ -88,12 +88,12 @@ nav h2 {
 
 h1 {
   text-align: center;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 44px;
+  font-weight: bolder;
   font-family: "Poppins", sans-serif;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #36454f;
 }
 
 h2 {
@@ -111,8 +111,9 @@ h2 {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: white;
+  padding: 10px;
 }
 
 .photowrapper {
@@ -120,8 +121,8 @@ h2 {
   gap: 10px;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 10px;
-  flex-wrap: wrap;
+  padding: 5px;
+  /* flex-wrap: wrap; */
 }
 
 .photowrapper img {
@@ -140,11 +141,11 @@ h2 {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: white;
+  padding: 20px;
 }
 
-.tech-stack-container {
+/* .tech-stack-container {
   margin-top: 25px;
   border: 1px solid black;
   display: flex;
@@ -152,19 +153,19 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: white;
-}
+} */
 
 .tech-icons {
   display: flex;
   justify-content: center; /* Centers icons horizontally */
   align-items: center; /* Aligns icons vertically */
   flex-wrap: wrap; /* Allows wrapping if the screen is too small */
-  gap: 60px; /* Space between icons */
-  margin-top: 10px;
+  gap: 25px; /* Space between icons */
+  /* margin-top: 10px; */
 }
 
 .tech-icons i {
-  font-size: 80px; /* Large icon size */
+  font-size: 60px; /* Large icon size */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -196,13 +197,9 @@ h2 {
   background-color: white;
 }
 
-#githubactivity img {
-  align-self: center;
-  width: auto;
-  height: 250px;
-  padding: 15px;
-  margin-left: 40px;
-}
+/* #githubactivity img {
+
+} */
 
 .container4 #project1 {
   display: flex;
@@ -250,7 +247,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
@@ -299,7 +296,6 @@ a {
 
 img {
   border: 1px solid black;
-  max-width: 90%;
 }
 
 .projects-wrapper {
@@ -318,9 +314,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
-  margin: 10px;
-  border-top: 1px solid black;
+  /* width: 30%; */
+  margin: 5px;
+  border: 1px solid black;
 }
 
 #project1,
@@ -335,7 +331,7 @@ img {
 #project2 img,
 #project3 img {
   width: 100%;
-  max-width: 400px;
+  /* max-width: 400px; */
   height: auto;
 }
 
