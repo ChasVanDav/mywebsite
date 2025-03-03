@@ -155,7 +155,7 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   padding: none;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .photowrapper img {
@@ -261,7 +261,6 @@ footer p {
   .projects-wrapper {
     flex-direction: column;
     flex-wrap: wrap;
-    border: red;
   }
 
   #project1,
